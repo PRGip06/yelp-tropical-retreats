@@ -1,0 +1,84 @@
+body {
+    background-color: #000;
+}
+#landing-header {
+    z-index: 1;
+    position: relative;
+    text-align:center;
+    padding-top: 40vh;
+}
+#landing-header h1 {
+    color: #fff;
+}
+
+/*======= Image Slideshow =======*/
+.slideshow {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.slideshow li {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    opacity: 0;
+    z-index: 0;
+    animation: imageAnimation 50s linear 2.5s infinite;
+    transform: scale(1);
+}
+
+.slideshow li:nth-child(1) { 
+  background-image: url(https://loveincorporated.blob.core.windows.net/contentimages/gallery/0f873a0d-5161-45e5-b965-95981d7911cc-keemala.jpg) 
+}
+.slideshow li:nth-child(2) { 
+  background-image: url(https://www.backpackerguide.nz/wp-content/uploads/2018/01/south-pacific-islands-guide.jpg);
+  animation-delay: 10s; 
+}
+.slideshow li:nth-child(3) { 
+  background-image: url(https://www.aleenta.com/files/6514/7763/2678/aleenta-Pool-Signature.jpg);
+  animation-delay: 20s; 
+}
+.slideshow li:nth-child(4) { 
+  background-image: url(https://cdn.asiatatler.com/asiatatler/hk/i/2017/11/14163411-dolphin_island_Fiji.jpg);
+  animation-delay: 30s; 
+}
+.slideshow li:nth-child(5) { 
+  background-image: url(http://chiclocations.com/wp-content/gallery/villa-samadhi-secret-retreats/Pool-and-Sunbeds-Villa-Samadhi-Secret-Retreats-Kuala-Lumpurc.jpg);
+  animation-delay: 40s; 
+}
+
+@keyframes imageAnimation { 
+  0%, 40% { 
+    opacity: 0; 
+    animation-timing-function: ease-in;
+    transform: scale(1);
+  }
+  10% {
+    opacity: 1;
+    animation-timing-function: ease-out;
+    transform: scale(1.1);
+  }
+  20% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+  30% {
+    opacity: 0;
+    transform: scale(1.2);
+  }
+}
+/* Older browser support - .no-cssanimations class added by modernizr */
+.no-cssanimations .slideshow li {
+	opacity: 1;
+}

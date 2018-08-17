@@ -1,0 +1,194 @@
+/* Login form */
+
+.form-signin {
+  width: 100%;
+  max-width: 380px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 0.5rem;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+/*.form-signin input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}*/
+.jumbotron { 
+    margin:0px 0px 30px 0px;
+    border-radius:5px;
+    background:linear-gradient(rgba(0, 0, 250, 0.25), rgba(125, 250, 250, 0.35)),
+    url(../img/blossom-plant-leaf-flower-bloom-jungle.jpg);
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    color:white !important;
+    background-size: cover;
+}
+.text-size {
+    font-size: 90%;
+}
+.btn-lg {
+  margin-top: 1rem;
+}
+.btn-sm-square {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+.fa-star {
+  position: relative;
+  top: -0.45rem;
+  margin-left: -0.45rem;
+}
+
+/*============ Sticky footer styles ============ */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  /*height: 60px;*/
+  background-color: #F5F5F7;
+}
+.text-muted a:hover {
+  color: #383737;
+  text-decoration: none;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.title {
+  float: left;
+}
+.beach-house {
+    width: 55px;
+    height: 55px;
+    float: left;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.subtitle {
+  position: relative;
+  top: -6px;
+}
+
+/*======= Input Form Field =======*/
+.form-group {
+  width: 100%;
+}
+.form-group input {
+  background: #fcfcfc;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #ccc, 0 10px 15px #ebebeb inset;
+}
+.form-group [type=submit] {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background: #fcfcfc;
+  position: relative;
+  right: 35px;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  color: #aaa;
+  outline: none;
+}
+.form-group [type=submit]:hover {
+  color: blue;
+}
+.form-search {
+  font-size: 17px;
+  width: 26%;
+  height: 20%;
+  padding: 8px 0px 8px 8px;
+  border-radius: 5px;
+}
+input[type=text]:focus {
+  border: 1px solid rgba(81, 203, 238, 1);
+}
+.card {
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+  transition: box-shadow 200ms cubic-bezier(0.4,0.0,0.2,1);
+}
+.card:hover {
+  box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
+}
+
+/*======= Thumbnail styles =======*/
+.thumbnail img {
+    width: 100%;
+}
+.thumbnail {
+    padding: 0;
+}
+.thumbnail .caption-full {
+    padding: 9px;
+}
+#delete-form {
+    display: inline;
+}
+.delete-form {
+    display: inline-block;
+}
+
+/*======= Navbar Styles =======*/
+.navbar {
+  height: 3rem;
+  padding: .5rem 1rem;
+  border-bottom: 1px solid #EEEEEE;
+  background-color: #F5F5F7;
+}
+.nav-link {
+  display: block;
+  padding: .75rem 1rem;
+}
+.active .nav-link {
+  background-color: #E9E9EB;
+}
+.nav-link:hover {
+  color: #383737;
+}
+a {
+  color: rgb(56, 55, 55, 0.7);
+}
+a:hover {
+  text-decoration: none
+}
+.navbar-brand:hover {
+  color: #ED8E3F;
+}
+
+/*======= Google Maps =======*/
+#map {
+    height: 400px;
+    width: 100%;
+}
