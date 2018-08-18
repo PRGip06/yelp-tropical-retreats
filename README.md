@@ -8,7 +8,6 @@ A yelp-like web application built to share and display tropical paradise retreat
 ## Live Demo
 Go to [https://protected-hollows-42589.herokuapp.com/](https://protected-hollows-42589.herokuapp.com/)
 
---
 
 ## Features
 
