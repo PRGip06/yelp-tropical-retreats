@@ -9,6 +9,7 @@ A yelp-like web application built to share and display tropical paradise retreat
 Go to [https://protected-hollows-42589.herokuapp.com/](https://protected-hollows-42589.herokuapp.com/)
 
 
+
 ## Features
 
 * Authentication:
