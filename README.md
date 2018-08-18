@@ -4,9 +4,11 @@
 
 ## Overview
 A yelp-like web application built to share and display tropical paradise retreats from all over the world.  It provide reviews to your next paradise retreat.
+
 <br>
 ## Live Demo
 Go to [https://protected-hollows-42589.herokuapp.com/](https://protected-hollows-42589.herokuapp.com/)
+
 <br>
 ## Features
 
