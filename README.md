@@ -4,7 +4,6 @@
 
 ## Overview
 A yelp-like web application built to share reviews and display tropical paradise retreats from all over the world.
-
 <br>
 
 ## Live Demo
