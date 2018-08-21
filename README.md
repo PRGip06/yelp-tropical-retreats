@@ -26,4 +26,40 @@ To view the web app go to [https://protected-hollows-42589.herokuapp.com/](https
   
   * Admin can manage all posts and comments
   
-* 
+* Basic functionality of campground posts   
+
+  * Create, edit, delete posts and comments
+  
+  * Upload campground photos
+  
+  * Display campground location on Google Maps
+  
+  * Search existing campgrounds
+  
+* Basic functionality of managing User accounts
+
+  * Profile page set-up with sign-up
+  
+  * Password reset via email confirmation
+  
+* Flash messages responding to users' interaction with the app
+
+* Responsive web design
+
+### Custom Enhancements
+
+* Update campground photos when editing campgrounds
+
+* Update personal information on profile page
+
+* Improve image load time on the landing page using Cloudinary
+
+## Getting Started
+
+> This app contains API secrets and passwords that have been deliberately hidden, so the app cannot run with its features on your local machine.  You can clone this repository.
+
+### Clone or download this repository
+
+```sh
+git clone 
+
