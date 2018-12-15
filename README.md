@@ -7,7 +7,7 @@ A yelp-like web application built to share reviews and display tropical paradise
 <br>
 
 ## Live Demo
-To view the web app go to [https://protected-hollows-42589.herokuapp.com/](https://protected-hollows-42589.herokuapp.com/)
+To view the web app go to [https://yelp-tropical-retreats.herokuapp.com/](https://protected-hollows-42589.herokuapp.com/)
 <br>
 
 ## Features
